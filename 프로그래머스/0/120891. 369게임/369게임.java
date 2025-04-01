@@ -1,11 +1,14 @@
-
-
 class Solution {
     public int solution(int order) {
-        int count = 0;
-        while (order != 0) {
-            if (order % 10 == 3 || order % 10 == 6 || order % 10 == 9) count++;
-            order /= 10;
+        int order;
+        if (int order == 3){
+        return 3;}
+        else if(int order == 6){
+            return 6;}
+        else(int order == 9){
+            return 9}
         }
-        return count;
-    } }
+            
+        }
+    }
+}
